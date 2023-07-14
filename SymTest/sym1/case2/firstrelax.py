@@ -3,7 +3,7 @@
 # calculation metro constant
 
 from ase.spacegroup import crystal
-from readinginput import *
+from read_input import *
 from randommove import *
 from symdata import *
 

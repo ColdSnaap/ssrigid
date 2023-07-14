@@ -1,5 +1,5 @@
 from functions import *
-from readinginput import *
+from read_input import *
 
 root_path = os.getcwd()
 trail_path = root_path +'/trail'

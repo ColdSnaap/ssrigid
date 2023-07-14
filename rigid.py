@@ -9,7 +9,7 @@ Hexagonal: c a [210]
 cubic: a [111] [110]
 """
 from functions import *
-from readinginput import *
+from read_input import input_params
 
 def sym_to_lattice(sym_no):
     if 1 <= sym_no <= 2:

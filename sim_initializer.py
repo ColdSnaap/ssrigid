@@ -1,19 +1,19 @@
-# initial_cell function only has cube and hex, universal vol 
 """
 Class SymCases has the following directory format
-The example is with tetrahedron and symmetry number 15)
-{'1': [5, [['s1', 's6'], ['s2', 's6'], ['s3', 's6'], ['s4', 's6'], ['s5', 's6']]],
-'2': [5, [['s1', 's2', 's3'], ['s1', 's2', 's4'], ['s1', 's2', 's5'], ['s1', 's3', 's4'], ['s1', 's3', 's5'],
-['s1', 's4', 's5'], ['s2', 's3', 's4'], ['s2', 's3', 's5'], ['s2', 's4', 's5'], ['s3', 's4', 's5']]]}
-
-'1' is the case index means the 1st case is with the rigid body at 5th Wyckoff position
-['s1', 's6'] means single atoms are at s1 and s6
+The example is with tetrahedron and symmetry number 62)
+case1: {'rigid': ['s1'], 'single': ['s1', 's4']}
+case2: {'rigid': ['s1'], 'single': ['s2', 's4']}
+case3: {'rigid': ['s1'], 'single': ['s3', 's4']}
+case4: {'rigid': ['s1'], 'single': ['s1', 's1', 's1']}
+case5: {'rigid': ['s1'], 'single': ['s1', 's1', 's2']}
+case6: {'rigid': ['s1'], 'single': ['s1', 's1', 's3']}
+case7: {'rigid': ['s1'], 'single': ['s1', 's2', 's3']}
 
 Add new rigid body: Add new rigid body information in rigid.py and rigid_generate function in functions.py
 """
 
 from ase.spacegroup import crystal
-from readinginput import *
+from read_input import input_params
 from rigid import *
 from casecount import *
 

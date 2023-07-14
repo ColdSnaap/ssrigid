@@ -1,9 +1,9 @@
 # from casecount2 import *
 import matplotlib.pyplot as plt
-from readinginput import *
+from read_input import *
 from itertools import combinations, combinations_with_replacement
 from ase.spacegroup import crystal
-from casecount import *
+from casecount_backup import *
 import numpy as np
 from functions import *
 from cellcheck import lattice_angle

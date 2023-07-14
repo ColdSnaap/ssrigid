@@ -1,5 +1,5 @@
 from ase.spacegroup import crystal
-from readinginput import *
+from read_input import *
 from randommove import *
 
 root_path = os.getcwd()
